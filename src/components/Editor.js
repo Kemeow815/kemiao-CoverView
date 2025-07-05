@@ -12,11 +12,11 @@ import { THEMES } from "../utils/constants";
 const defaultIcon = { 'label': 'react', 'value': 'react' }
 
 const defaultSettings = {
-	title: "清羽飞扬的文章标题",
+	title: "克喵的文章标题",
 	bgColor: "#949ee5",
 	pattern: "",
 	download: "PNG",
-	author: "LiuShen's Blog",
+	author: "KeMiao's Blog",
 	icon: defaultIcon,
 	devIconOptions: [defaultIcon],
 	font: 'font-Anek',
@@ -25,7 +25,7 @@ const defaultSettings = {
 	platform: 'hashnode'
 };
 
-const devIconsUrl = "https://nginx.430070.xyz/https://raw.githubusercontent.com/devicons/devicon/master/devicon.json"
+const devIconsUrl = "https://source.314926.xyz/assets/devicon.json"
 
 class Editor extends React.Component {
 

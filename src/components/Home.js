@@ -1,9 +1,5 @@
-import React from 'react';
 import logo from '../assets/icons/logo.png';
 import { Link } from 'react-router-dom';
-import cover1 from '../assets/images/cover1.webp';
-import cover2 from '../assets/images/cover2.webp';
-import cover3 from '../assets/images/cover3.webp';
 
 const Home = () => {
     return (
@@ -13,12 +9,12 @@ const Home = () => {
                 <div className="flex items-center">
                     <img src={logo} alt="logo" className="w-8 h-8 mx-2" />
                     <h1 className="font-semibold md:text-xl text-lg font-Inter">
-                        清羽飞扬の封面生成
+                        克喵の封面生成
                     </h1>
                 </div>
 
                 <a
-                    href="https://github.com/willow-god/CoverView"
+                    href="https://github.com/Kemeow815/kemiao-CoverView"
                     target="_blank"
                     rel="noreferrer"
                     className="hover:translate-x-2 flex items-center justify-center duration-300 bg-gray-700 group rounded-xl text-white ml-auto mr-4 font-Inter font-semibold"
@@ -48,12 +44,14 @@ const Home = () => {
                         <span className="md:text-2xl font-semibold text-lg">立即创建</span>
                     </Link>
 
-                    <Link
-                        to="https://blog.liushen.fun/"
+                    <a
+                        href="https://blog-v3.kemeow.top/"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="hover:translate-x-2 duration-300 bg-gray-700 hover:bg-gray-800 group rounded-full border-4 border-gray-100 px-6 md:px-8 text-white md:text-2xl text-base font-Poppins font-semibold md:p-4 p-2 mb-16"
                     >
-                        <span className="md:text-2xl font-semibold text-lg">站长博客</span>
-                    </Link>
+                    <span className="md:text-2xl font-semibold text-lg">站长博客</span>
+                    </a>
                     </div>
                     
                 </div>
